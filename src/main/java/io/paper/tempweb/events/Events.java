@@ -36,7 +36,7 @@ public class Events implements Listener {
                 case WOOL: {
                     final Location l = block.getLocation();
                     e.getBlock().getWorld();
-                    final int wool = Main.config.getInt("cooldown.wool");
+                    final int wool = Main.config.getInt("cooldown.web");
                     this.scheduleTask(blocks, wool);
                     break;
                 }
