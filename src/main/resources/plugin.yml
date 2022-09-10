@@ -1,0 +1,4 @@
+name: TempWeb
+version: '${project.version}'
+main: io.paper.tempweb.Main
+api-version: 1.19
